@@ -37,18 +37,18 @@ my-app/
 │   └── home.jpg
 │
 ├── screens/                # Main application screens
-│   ├── details.jax         # Product/Store detail screen
-│   ├── nearby.jax          # Nearby stores with interactive map
-│   ├── webcoms.jax         # Main commerce listing screen
+│   ├── details.jsx         # Product/Store detail screen
+│   ├── nearby.jsx          # Nearby stores with interactive map
+│   ├── welcome.jsx         # Main commerce listing screen
 │   └── tabs/               # Bottom/Top tab navigator screens
-│       ├── favorites.jax   # User’s favorites list
-│       └── stores.jax      # Stores list screen
+│       ├── favorites.jsx   # User’s favorites list
+│       └── stores.jxs      # Stores list screen
 │
 ├── router/                 # Navigation configuration
-│   ├── buttonhub.jax
-│   └── navigator.jax
+│   ├── buttonTab.jsx
+│   └── navigator.jsx
 │
-├── StoreControl.jax        # Central logic for store/item management
+├── StoreControl.jsx        # Central logic for store/item management
 │
 ├── App.js                  # Root component
 │
